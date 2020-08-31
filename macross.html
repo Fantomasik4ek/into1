@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Список макросов</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1-4-2.min.js"></script> 
+<!--script type="text/javascript" src="/jqueryui/js/jquery-ui-1.7.2.custom.min.js"></script--> 
+<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+<script type="text/javascript" src="js/showhide.js"></script> 
+<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+</script>
+
+</head>
+
+<body id="subpage">
+<div id="templatemo_header_wrapper">
+	<div id="site_title"><h1><a href="#">Carousel Template</a></h1></div>
+     <div id="templatemo_menu" class="ddsmoothmenu">
+        <ul>
+		    <li><a href="info.html">Главное</a></li>
+            <li><a href="commands.html">Cписок команд</a></li>
+            <li><a href="macross.html" >Список макросов</a></li>
+            <li><a href="keys.html">Cписок кнопок</a></li>
+            <li><a href="update.html">Список обновлений</a></li>
+        </ul>
+        <br style="clear: left" />
+    </div> <!-- end of templatemo_menu -->
+    <div class="cleaner"></div>
+</div>
+
+<div id="templatemo_main">
+
+<div class="about_box">
+<font size="4" face="Verdana">
+<h2><p align="center">Информация о макросах</p></h2>
+<hr>
+Макрос - Это заранее запрограммированое действие в<br>
+биндере, которое выполняеется при вызове макроса<br><br>
+Для использования макроса в отыгровке нужно написать<br>
+слово <font color="red">Macros</font> далее в скобках его параметры<br>
+У разных макросов есть свои параметры и<br>
+разное их колличество, но первый параметра обязательно<br>
+название этого макроса, <font color="red">Macros</font>(<font color="blue">название,параметры</font>)<br>
+<hr>
+Список всех макросов используемых в Tabirat:<br>
+<font color="red">Macros</font>(<font color="blue">Goto_Me</font>,<font color="green">0</font>) - Вести за собой зафиксированного игрока<br>
+Вторым параметром может быть все что угодно, на выполнение макроса<br>
+параметр не влияет<br><br>
+<font color="red">Macros</font>(<font color="blue">Delo</font>,<font color="green">статья</font>) - Заводит дело по статье указанной вторым параметром<br>
+на зафиксированного игрока<br><br>
+<font color="red">Macros</font>(<font color="blue">ShtrfAK</font>,<font color="green">статья</font>) - Выписывает штраф по статье АК указанной вторым параметром<br>
+зафиксированному игроку<br><br>
+<font color="red">Macros</font>(<font color="blue">ShtrfPDD</font>,<font color="green">статья</font>) - Выписывает штраф по статье ПДД указанной вторым параметром<br>
+зафиксированному игроку<br><br>
+<font color="red">Macros</font>(<font color="blue">Scrin</font>,<font color="green">статья</font>) - Делает скриншот, вторым параметром может быть что угодно<br><br>
+<font color="red">Macros</font>(<font color="blue">Dialog</font>,<font color="green">текст</font>) - Открывает диалоговое окно с указанным текстом<br><br>
+<font color="red">Macros</font>(<font color="blue">DialogEdit</font>,<font color="green">текст:переменная</font>) - Открывает диалоговое окно с указанным текстом<br>
+а так же добавляет поле ввода которое сохраняет значение в указанную переменную<br><br>
+<font color="red">Macros</font>(<font color="blue">SetValue</font>,<font color="green">переменная:значение</font>) - Присваивает выбранной переменной указанное значение<br><br>
+<font color="red">Macros</font>(<font color="blue">IfValue</font>,<font color="green">переменная:значение:команда</font>) - Проверяет если указанная переменная<br>
+равна указанному значению то выполняет выбранную комманду<br><br>
+<font color="red">Macros</font>(<font color="blue">IfNotValue</font>,<font color="green">переменная:значение:команда</font>) - Проверяет если указанная переменная<br>
+не равна указанному значению то выполняет указанную комманду<br><br>
+<font color="red">Macros</font>(<font color="blue">Random</font>,<font color="green">переменная:минимум:максимум</font>) - Заносит случайное значение в <br>
+указанную переменную в промежутке из минимального до максимального значения<br><br>
+<font color="red">Macros</font>(<font color="blue">Block</font>,<font color="green">порядковый_номер</font>) - Устанавливает дорожный блок<br>
+В параметре порядковый_номер указывается номер блока по счету<br><br>
+<font color="red">Macros</font>(<font color="blue">Timer</font>,<font color="green">команда:время</font>) - Задает таймер который будет выполнять<br>
+указанную команду через указанное время<br><br>
+<font color="red">Macros</font>(<font color="blue">TimerOff</font>,<font color="green">0</font>) - Выключает созданный таймер созданный<br>
+макросом Timer, вторым параметром может быть что угодно<br><br>
+<font color="red">Macros</font>(<font color="blue">ChekMenu</font>,<font color="green">Название_пункта:задержка</font>) - кликает на указанный пункт меню<br>
+Задержку можно не указывать, тогда она будет по умолчанию 50<br><br>
+<font color="red">Macros</font>(<font color="blue">PlayAudio</font>,<font color="green">путь_к_файлу:wite</font>) - Воспроизводит звуковой файл в формате wav<br>
+если убрать параметр wite то отыгровка будет продолжаться вместа с<br>
+воспроизведением файла, если использовать wite то скрипт будет<br>
+ждать окончания воспроизведения и только потом продолжит отыгровку<br><br>
+<font color="red">Macros</font>(<font color="blue">Сложить</font>,<font color="green">переменная:число1:число2</font>) - записывает в переменную сумму числа1 и числа2<br><br>
+<font color="red">Macros</font>(<font color="blue">Вычесть</font>,<font color="green">переменная:число1:число2</font>) - записывает в переменную значение вычитания из числа1 число2<br><br>
+<font color="red">Macros</font>(<font color="blue">Умножить</font>,<font color="green">переменная:число1:число2</font>) - записывает в переменную произведение числа1 на число2<br><br>
+<font color="red">Macros</font>(<font color="blue">Делить</font>,<font color="green">переменная:число1:число2</font>) - записывает в переменную результат деления числа1 на число2<br><br>
+</font>
+<br><br>
+</div>
+</div>
+</body>
+<div id="templatemo_footer_wrapper">
+	 <div id="templatemo_footer">
+	 Справка подготовленна Alessandro Foresto
+	 </div>
+</html>
